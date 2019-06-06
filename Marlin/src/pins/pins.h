@@ -422,7 +422,8 @@
   #include "pins_MORPHEUS.h"          // STM32F1                                    env:STM32F1
 #elif MB(MKS_ROBIN)
   #include "pins_MKS_ROBIN.h"         // STM32F1                                    env:mks_robin
-
+#elif MB(GTM32_PRO_VD)                
+  #include "pins_GTM32_PRO_VD.h"      // STM32F1                                    env:STM32F103VE
 //
 // STM32 ARM Cortex-M4F
 //
